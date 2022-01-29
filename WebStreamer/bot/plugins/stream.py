@@ -29,5 +29,5 @@ async def media_receive_handler(_, m: Message):
     await m.reply_text(
         text=f"https://shortstreaminglink.xyz/st?api=89b9421337b2f01761247ba3a9014c5b40240a81&url={stream_link}",
         quote=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Earn Money', url=https://shortstreaminglink.xyz)]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Earn Money',url=https://shortstreaminglink.xyz)]])
     )
